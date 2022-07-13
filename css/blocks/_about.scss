@@ -1,0 +1,64 @@
+@import '../base/variables';
+
+.about {
+    padding-top: 113px;
+    padding-bottom: 114px;  
+    color: $secondary-text-color;
+
+    &__title {
+        font-size: 50px;
+        line-height: 75px;
+        text-transform: uppercase;
+        color: $secondary-text-color;
+    }
+
+    &__info {
+        margin-top: 58px;
+
+        &-wrapper {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        &-images {
+            margin-top: 67px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &-img {
+            width: 270px;
+            height: 344px;
+            margin-left: 30px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &--large {
+                width: 570px;
+            }
+        }
+    }
+
+    &__block {
+        &:last-child {
+            margin-left: 36px;
+        }
+
+        &-title {
+            font-size: 25px;
+            line-height: 38px;
+            text-transform: uppercase;
+        }
+
+        &-descr {
+            margin-top: 32px;
+            font-family: 'Open Sans';
+            font-size: 16px;
+            line-height: 26px;
+            width: 564px;
+        }
+    }
+
+
+}

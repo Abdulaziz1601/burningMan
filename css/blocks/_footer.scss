@@ -1,0 +1,17 @@
+.footer {
+    padding-bottom: 114px;
+    &__inner {
+        display: flex;
+        align-items: center;
+        .author,
+        .name {
+            font-family: 'Open Sans';
+            font-size: 15px;
+            line-height: 20px;
+            color: #000000;
+        }
+        .author {
+            margin-left: 55px;
+        }
+    }
+}
