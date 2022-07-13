@@ -186,6 +186,9 @@ img {
   .about__block-descr {
     width: 500px;
   }
+  .about__info-img--large {
+    width: 450px;
+  }
 }
 @media (max-width: 1200px) {
   .container {

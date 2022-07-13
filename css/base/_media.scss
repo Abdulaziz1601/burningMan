@@ -9,6 +9,14 @@
                 width: 500px;
             }
         }
+
+        &__info {
+            &-img {
+                &--large {
+                    width: 450px;
+                }
+            }
+        }
     }
 }
 
@@ -376,6 +384,7 @@
 
     .footer {
         &__inner {
+
             .name,
             .author {
                 font-size: 13px;
